@@ -3,9 +3,9 @@
 	"id": "neversendchats",
 	"version": "${version}",
 	"name": "NeverSendChats",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Blocks chat packets that might be send to the server. Default key is M. Will never be updated past this version",
 	"authors": [
-		"Me!"
+		"blokker"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

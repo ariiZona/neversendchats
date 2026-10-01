@@ -3,7 +3,7 @@
 	"package": "com.blokker.neversendchats.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"SendPacketMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -31,22 +31,5 @@ public class NeverSendChatsClient implements ClientModInitializer {
 				}
 			}
 		});
-
-		ClientSendMessageEvents.ALLOW_CHAT.register(message -> {
-			if (!muted) return true;
-			echoBlocked(message);
-			return false;
-		});
-
-		ClientSendMessageEvents.ALLOW_COMMAND.register(command -> {
-			if (!muted) return true;
-			echoBlocked("/" + command);
-			return false;
-		});
-	}
-
-	private static void echoBlocked(String text) {
-		MinecraftClient.getInstance().inGameHud.getChatHud()
-				.addMessage(Text.literal("[blocked] " + text).formatted(Formatting.GRAY));
 	}
 }
