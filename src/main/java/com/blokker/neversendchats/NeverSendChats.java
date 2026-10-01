@@ -7,8 +7,8 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class NerverSendChats implements ModInitializer {
-	public static final String MOD_ID = "nerversendchats";
+public class NeverSendChats implements ModInitializer {
+	public static final String MOD_ID = "neversendchats";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

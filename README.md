@@ -1,4 +1,4 @@
-# NerverSendChats
+# NeverSendChats
 
 ## Setup
 
